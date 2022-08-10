@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { SquareValue } from "../types/types";
 import Square from "../Square/Square";
-import "./board.css";
+import "./Board.css";
 
 type BoardProps = {
     currentGame : SquareValue[]
