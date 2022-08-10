@@ -1,4 +1,4 @@
-import { SquareValue } from "../../types/types";
+import { SquareValue } from "../types/types";
 import NextPlayer from "./NextPlayer";
 import "./Moves.css";
 
