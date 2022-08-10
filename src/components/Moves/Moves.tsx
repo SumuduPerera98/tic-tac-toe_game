@@ -1,5 +1,5 @@
 import { SquareValue } from "../types/types";
-import NextPlayer from "./NextPlayer";
+import NextPlayer from "./NextPlaver";
 import "./Moves.css";
 
 type moveProps = {
