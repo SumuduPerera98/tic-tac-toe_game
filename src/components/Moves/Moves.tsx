@@ -15,8 +15,9 @@ const Moves: React.FC<moveProps> = (props) => {
                 props.winner ? <h2> {props.winner} You Won!!!</h2> :
                     <div>
                         <NextPlayer nextPlayer={props.nextPlayer} />
-                        <h3>Moves(History)</h3>
+                        {/* <h3>Moves(History)</h3> */}
                         <ol>
+                
                             <li onClick={() => props.timeTravel(-1)}>Go to game start</li>
                             {/* conditional rendering */}
 
